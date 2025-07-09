@@ -61,7 +61,7 @@ homepage=$3
 github_org=${GIT_AUTHORITY_PATH#git@github.com:}
 
 if [ "${TEST_BENCH_BOOTSTRAP:-off}" = "on" ]; then
-  test_bench_gem_name="test_bench_bootstrap"
+  test_bench_gem_name="test_bench-bootstrap"
   test_bench_namespace="TestBenchBootstrap"
 else
   test_bench_gem_name="test_bench"
